@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* color --> #006849     other color --> #005a3f*/
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* NavBar Brand */
+#Brand{
+    color: white;
+    font-size: 2rem;
+    margin: 0 1rem;
+    font-family: "Playwrite AU SA", cursive;
+}
+#Brand span{
+    color: black;
+}
+
+/* Navbar */
+.Navbar{
+    background-color: #006849;
+    color:#ffffff ;
+}
+/* fontawseome */
+#icon{
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0px 15px;
+}

@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* color --> #006849     other color --> #005a3f*/
+/***     Sections     ***/
+#shppingProducts , #fruitsVegetables , #snacksChocolates{
+    margin: 4% 0;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-family: "Playwrite DE Grund", cursive; 
+    font-weight: 400;
+}
+h5{
+    font-size: 14px;
+    font-weight: 500;
+}
+.card-text{
+    font-size: 14px;
+}
+/* Top */
+.bottun{
+    background-color:#006849 ;
+    color : white;
+}
+.bottun:hover{
+    background-color: #005a3f;
+}
+.cardt{
+    padding: 32px;
+    margin-bottom: 12px;
+}
+.fs-2{
+    font-family: "Playwrite DE Grund", cursive;
+}
+/* FirstCards */
+.card1{
+    background: url(../Images/ad-banner-1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card2{
+    background: url(../Images/ad-banner-2.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card3{
+    background: url(../Images/ad-banner-3.jpg) no-repeat;
+    background-size: cover;
+}
+
+/***     shppingProducts     ***/
+
+#shppingProducts .card-product .card-body img {
+    margin: 0px 0px 12px;
+}
+.card-body{
+    padding: 2rem 1rem;
+}
+.card{
+    margin: 24px 0px 0px;
+    padding: 0px 10px;
+}
+.card:hover{
+    border: 1px solid #006849;
+}
+.card-product{
+    margin: 12px;
+}
+
+/* FruitsVegetables */
+.cardFruits{
+    width: 15rem;
+    height: 23.5rem;
+}
+
+/***     Fruits & vegetables     ***/
+del{
+    color: rgba(22, 22, 22, 0.444);
+    
+    margin-left: 5px;
+}
+.spann{
+    color: #006849;
+}
+
+/*     hr     */
+#hrr{
+    margin: 2rem 0;
+    width: 80%;
+}
+
+/*     countact     */
+.form-check-input:checked {
+    background-color: #006849;
+    border-color:#006849 ;
+    
+}
+.form-check-input:hover{
+    cursor: pointer; 
+}
+
+/*     footer     */
+footer{
+    text-align: center;
+    margin-top: 1rem;
+}
+footer a{
+    color: #0aad0a;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #005a3f;
+}
+/* Map sectio */
+#iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe{
+    width: 90%;
+}
+/***     media screen --->    ***/
+
+@media  (max-width: 992px) {
+    .form-control{/**/
+        margin-bottom: 1.5rem;
+    }
+    .btn-success , #top{
+        margin-bottom: 1.5rem;
+    }
+
+    
+}
+
+@media (min-width: 768px ) and (max-width:1000px){
+    .correctt{
+        width: 216px;
+        height: 23.5rem;
+    }
+}
+
+@media (min-width: 1000px ) and (max-width:1200px){
+    .correctt{
+        width: 216px;
+        height: 23.5rem;
+    }
+    .falss{
+        margin: 0;
+    }
+}
+
+@media (min-width: 1200px ) and (max-width:1400px){
+    .correctt{
+        margin-right: 5rem;
+    }
+}
+
+@media (min-width:992px) and (max-width:1800px){
+    #navbar .collapse .navbar-nav .dropdown:hover{
+        .dropdown-menu{display: inline-block;}
+    }
+}
